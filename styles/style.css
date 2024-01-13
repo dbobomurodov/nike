@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #322E41;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+}
+
+.header_list a {
+    color: white;
+    text-decoration: none;
+    padding: 23px 14px;
+    display: block;
+}
+
+.header_list a:hover {
+    background: white;
+    color: #D47300;
+}
+
+.intro {
+    height: 500px;
+    background: url(../images/Nike-Adapt-BB\ 1.png)no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h1 {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.intro p {
+    font-size: 18px;
+    color: white;
+}
+
+.intro span {
+    font-weight: 700;
+}
+
+main {
+    background: #e5e5e5;
+    padding-bottom: 30px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -37px;
+}
+
+.left {
+    width: 540px;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.left img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.left h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.left p {
+    line-height: 19px;
+    color: #9B9B9B;
+}
+
+.right {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.right_item {
+    width: 255px;
+    padding: 15px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.right_item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.right_item h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    color: #2C2A2A;
+}
+
+.right_item p {
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+footer {
+    background: #322E41;
+    padding-top: 37px;
+    padding-bottom: 57px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.footer_form input {
+    color: #9B9B9B;
+    background: white;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.footer_form textarea {
+    color: #9B9B9B;
+    background: white;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    height: 86px;
+    resize: none;
+}
+
+.footer_form textarea::placeholder,
+.footer_form input::placeholder {
+    color: #9B9B9B;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.footer_form button {
+    background: #544297;
+    color: white;
+    border-radius: 6px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer_form button:hover {
+    opacity: 0.7;
+}
+
+.footer_nav{
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+}
+
+.footer_nav ul{
+    list-style: none;
+}
+
+.footer_nav a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer_nav a:hover{
+    color: #D57300;
+}
+
+.footer_nav .active {
+    color: #D57300;
+}
